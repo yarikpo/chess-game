@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+</head>
+<body>
+    <div id="root">
+        <canvas id="game" style="border: solid 2px;"></canvas>
+    </div>
+    <button onclick="startGame()"> Start Game! </button>
+    <select id="player_one">
+        <option value="player">Player</option>
+        <option value="ai">AI</option>
+      </select>
+      <select id="player_two">
+        <option value="player">Player</option>
+        <option value="ai">AI</option>
+      </select>
+      <button onclick="changeGameWidth(-1)"> Width- </button>
+      <button onclick="changeGameWidth(1)"> Width+ </button>
+
+    <script src="./index.js"></script>
+</body>
+</html>
